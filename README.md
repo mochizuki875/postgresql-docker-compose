@@ -14,8 +14,8 @@ Docker Compose version v2.2.1
 ・・・
 ❯❯❯ docker compose ps
 NAME                    COMMAND                  SERVICE             STATUS              PORTS
-postgresql-pgadmin-1    "/entrypoint.sh"         pgadmin             running             0.0.0.0:8081->80/tcp
-postgresql-postgres-1   "docker-entrypoint.s…"   postgres            running             0.0.0.0:5432->5432/tcp
+1440ca7f2bec   dpage/pgadmin4         "/entrypoint.sh"         51 minutes ago   Up 51 minutes   443/tcp, 0.0.0.0:8880->80/tcp, :::8880->80/tcp   postgresql-docker-compose-pgadmin-1
+6955f8df0ede   postgres:latest        "docker-entrypoint.s…"   51 minutes ago   Up 51 minutes   0.0.0.0:5432->5432/tcp, :::5432->5432/tcp        postgresql-docker-compose-postgres-1
 ```
 
 ```
